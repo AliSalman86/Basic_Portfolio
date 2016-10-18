@@ -1,79 +1,132 @@
-body {
-    background-color: #efefef;
-    margin: 0;
-    padding: 0;
-    font-size: 16px;
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-.header {
-    display: flex;
-    background-color: #fff;
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    background: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/seigaiha.png");
+    background-attachment: fixed;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+    color: #4aaaa5;
+}
+
+header, img, p, nav, form, input {
+    margin: 0;
+    padding: 0px;
+    color: #777777;
+}
+
+header {
+    width: 100%;
+    height: 125px;
+    margin-bottom: 50px;
+    background: #ffffff;
     border-bottom: 2px solid #cccccc;
-    margin-bottom: 60px;
+}
+
+#main_header h1 {
+    width: 15%;
+    margin-left: 24.8%;
+    position: absolute;
+    top: 47px;
+    padding: 20px;
+    background: #4aaaa5;
+    color: #fefefe;
+    text-align: center;
+
 }
 
 .container {
-    max-width: 960px;
+    width: 50.5%;
     margin: 0 auto;
+    overflow: auto;
 }
 
-#main {
-    background-color: #fff;
-    border: 1px solid #dddddd;
-    width: 650px;
-    margin-right: 10px;
+#main_containt {
+    margin: 0;
+    width: 67.7%;
+    background: #ffffff;
+    padding: 20px;
+    border: 2px solid #cccccc;
+}
+
+#bio_img {
+    padding-right: 20px;
+    padding-bottom: 20px;
+    width: 40%;
+    height: 40%;
 }
 
 #sidebar {
-    background-color: #fff;
-    border: 1px solid #dddddd;
-    width: 270px
-}
-
-#bio-img {
-    width: 200px;
-    height: 200px;
+    width: 28.3%;
+    background: #ffffff;
+    margin-left: 30px;
     padding: 20px;
-    padding-right: 15px;
-    padding-left: 40px;
+    border: 2px solid #cccccc;
 }
 
-#main, #bio-img, #sidebar {
+#main_containt, #bio_img, #sidebar {
     float: left;
 }
 
-h2, h3, p {
-    padding: 20px;
-    padding-left: 40px;
-    margin: 0;
-}
-
 hr {
-    size: 2px;
-    color: #cccccc;
-    margin-right: 40px;
-    margin-left: 40px;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-#social {
-    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-color: #cccccc;
 }
 
 footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    height: 50px;
-    width: 100%;
-    background-color: #666666;
-    border-top: solid 6px #4aaaa5;
-    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    clear: both;
+    background: #666666;
     text-align: center;
-    color: #fff;
+    padding: 25px;
+    border-top: 6px solid #4aaaa5;
+    bottom: 0;
+    width: 100%;
 }
 
-.col-6 {
-    width: 50%;
+p, form {
+    font-size: 20px;
+}
+
+nav {
+    float: right;
+    margin-right: 26%;
+    font-size: 20px;
+    margin-top: 80px;
+}
+
+nav a, footer a {
+    text-decoration: none;
+    padding: 0px 10px 0px 10px;
+}
+
+a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 5px;
+}
+
+button {
+    padding: 10px;
+    width: 100px;
+    height: 40px;
+    background: #4aaaa5;
+    color: #ffffff;
+    cursor: pointer;
 }
