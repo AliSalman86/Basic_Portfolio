@@ -3,6 +3,7 @@
 <head>
     <title>Contact Me</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/d/d2/AS_icon.PNG">
 </head>
 <body>
     <header id="main_header">
@@ -11,7 +12,9 @@
         </h1>
         <nav>
             <a target="_blank" href="index.html">About</a>
+            |
             <a target="_blank" href="portfolio.html">Portfolio</a>
+            |
             <a target="_blank" href="contact.html">Contact</a>
         </nav>
     </header>
@@ -21,21 +24,23 @@
                 Contact
             </h1>
             <hr>
-            <form style="padding-bottom: 10px;" action="">
+            <form action="">
                 Name:<br>
                 <input type="text" value="John Smith" onfocus="if (this.value=='John Smith') this.value='';"/>
                 <br>
                 <br>
                 Email:<br>
                 <input type="text" value="Example@mail.com" onfocus="if (this.value=='Example@mail.com') this.value='';" />
+                <br>
+                <br>
+                Attachements: <input type="file" name="">
             </form>
             <br>
             <br>
             <p style="padding-bottom: 10px;">
                 Message:<br>
             </p>
-            <textarea rows="15" cols="60">
-            </textarea>
+            <textarea rows="15" cols="60"></textarea>
             <br>
             <br>
             <button type="button" onclick="alert('Message Sent')">Submit</button>
@@ -50,6 +55,6 @@
             </center>
         </aside>
     </div>
-    <footer style="position: fixed;">©Copyright 2016<a target="_blank" href="https://github.com/AliSalman86">AliAS</a>WebDev</footer>
+    <footer>©Copyright 2016 <a style="padding: 0;" target="_blank" href="https://github.com/AliSalman86">AliAS</a> WebDev</footer>
 </body>
 </html>
